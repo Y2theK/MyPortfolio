@@ -1,0 +1,115 @@
+@media (max-width: 1102px){
+  .social-media{
+    margin-left: 370px;
+  }
+}
+@media (max-width: 1024px){
+  .about-section .about-content{
+    margin-left: 40px;
+  }
+}
+@media(max-width:1011px){
+  .social-media{
+    display: none;
+  }
+}
+@media(max-width:1199px){
+  .about-section .about-content{
+    margin-left: 40px;
+  }
+}
+@media(max-width:992px){
+  .about-section .about-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media(max-width:991px){
+   .nav-toggler{
+   	display: block;
+   }
+   .header .nav{
+   	width: 100%;
+   	padding:0;
+   	max-height: 0px;
+   	overflow: hidden;
+   	visibility: hidden;
+   	transition: all 0.5s ease;
+   }
+   .header .nav.open{
+   	visibility: visible;
+   }
+   .header .nav ul{
+   	padding:12px 15px 0;
+   	margin-top: 12px;
+   	border-top:1px solid rgba(255,255,255,0.2);
+   }
+   .header .nav ul li{
+   	display: block;
+   	margin:0;
+   }
+   .social-media{
+     display: none;
+   }
+   .home-img{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin-bottom: 30px;
+   }
+}
+@media(max-width: 768px){
+  .home-img{
+    margin-left: 0px;
+  }
+  .about-section .about-content{
+    margin-left: 0;
+    margin-top: 30px;
+  }
+  /* .about-section .about-img{
+    margin: 10px 27px;
+  } */
+  .about-section .about-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (max-width: 425px){
+  .home-section .home-content .postion-text{
+    font-size: 30px;
+  }
+  .about-section .about-img{
+    margin: 10px 27px;
+  }
+  .about-section .about-img img{
+    max-width: 350px;
+  }
+}
+@media(max-width: 375px){
+  .home-img{
+    margin-left: 0px;
+  }
+  .home-img img{
+    width: 250px;
+    height: 250px;
+  }
+  .home-section .home-content .name-text{
+    font-size: 40px;
+  }
+  .mybtn2{
+    margin-top: 30px;
+    margin-left: 0px;
+    padding: 10px 36px;
+  }
+  .about-section .about-img{
+    margin: 0 25px;
+  }
+  .about-section .about-img img{
+    max-width: 300px;
+  }
+  .title-content .title{
+    font-size: 25px;
+  }
+}
